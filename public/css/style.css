@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    gap: 5px;
+}
+.section1, .section2{
+    height: 100vh;
+    width: 50%;
+}
+.section1{
+    background-color: #171B36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 img{
+    width: 60%;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10em;
+}
+.section2 .title{
+    display: flex;
+    gap: 5px;
+    margin: 20px 0;
+}
+.title img{
+    width: 10%;
+}
+.title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.section2 h1{
+    font-size: 25px;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+form{
+    margin-top: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 9px 0;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+input:hover{
+    border: 2px solid #b2b1b1;
+}
+.agreement{
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+}
+input[type="checkbox"]{
+    width: 20px;
+}
+form button{
+    text-transform: uppercase;
+    width: 100%;
+    padding: 8px;
+    background-color: #0d99ff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sign-bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+.sign-bottom a{
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+@media(max-width:852px){
+    .section2{
+        padding: 10px;
+    }
+}

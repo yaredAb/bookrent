@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.input-area{
+    width: 60%;
+}
+.input-area input{
+    width: 80%;
+}
+.input-area:hover .search{
+    background-color: rgba(255, 166, 0, 0.658);
+}
+
+.icon-with-bg{
+    @apply flex px-2 py-1 rounded-full hover:bg-gray-200 mx-4 transition ease-out duration-200 items-center;
+}
+.outlined-btn{
+    @apply rounded-full border-2 border-black hover:bg-black hover:text-white transition ease-in duration-150;
+}
